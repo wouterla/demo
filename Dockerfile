@@ -1,11 +1,11 @@
-FROM ubuntu:14.04
+FROM jacksoncage/apache
 MAINTAINER Wouter Lagerweij <wouter@lagerweij.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
 # RUN sysctl net.ipv6.conf.all.disable_ipv6=1 && sysctl net.ipv6.conf.default.disable_ipv6=1 && sysctl net.ipv6.conf.lo.disable_ipv6=1
 
-RUN apt-get update && apt-get install -yq apache2
+# RUN apt-get update && apt-get install -yq apache2
 
 # Dutch locale
 RUN locale-gen nl_NL.UTF-8
