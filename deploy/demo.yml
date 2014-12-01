@@ -1,0 +1,24 @@
+- hosts: docker
+  sudo: yes
+  serial: 1
+  vars:
+    - application_name: "demo"
+  tasks:
+    - name: Pull latest Docker image
+      docker:
+       image=localhost.localdomain:5000/demo
+       state=present
+
+    - name: Bring down old docker container
+      docker:
+        name=demo
+        state=absent
+        image=demo
+
+    - name: Start Docker image
+      docker:
+        image=localhost.localdomain:5000/demo
+        name=demo
+        hostname="{{ inventory_hostname_short }}-container"
+        ports="{{ demo_port_number }}:80"
+        state=running
