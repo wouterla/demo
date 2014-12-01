@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:14.04
 MAINTAINER Wouter Lagerweij <wouter@lagerweij.com>
 
 ENV DEBIAN_FRONTEND noninteractive

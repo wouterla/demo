@@ -17,6 +17,7 @@
 
     - name: Start Docker image
       docker:
+#        image=localhost.localdomain:5000/demo
         image=demo
         name=demo
         hostname="{{ inventory_hostname_short }}-container"
