@@ -1,2 +1,2 @@
 [docker]
-demo_port_number: 8881
+demo_port_number=8881
