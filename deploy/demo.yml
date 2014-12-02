@@ -21,5 +21,5 @@
         image=demo
         name=demo
         hostname="{{ inventory_hostname_short }}-container"
-        ports=8881:80
+        ports='{{ demo_port_number }}:80'
         state=running

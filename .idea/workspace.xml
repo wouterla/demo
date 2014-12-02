@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d902f5c-9bd3-40ca-8a51-3bba0c87fbd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hosts_acceptance" afterPath="$PROJECT_DIR$/hosts_acceptance" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hosts_test" afterPath="$PROJECT_DIR$/hosts_test" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/demo.yml" afterPath="$PROJECT_DIR$/deploy/demo.yml" />
     </list>
     <ignored path="demo.iws" />
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/deploy/demo.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.53544974" vertical-offset="0" max-vertical-offset="945">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -248,12 +246,12 @@
       <changelist id="9d902f5c-9bd3-40ca-8a51-3bba0c87fbd4" name="Default" comment="" />
       <created>1417526538736</created>
       <updated>1417526538736</updated>
-      <workItem from="1417526539300" duration="68000" />
+      <workItem from="1417526539300" duration="287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68000" />
+    <option name="totallyTimeSpent" value="287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1056" width="1920" height="1056" extended-state="6" />
@@ -317,7 +315,7 @@
     <entry file="file://$PROJECT_DIR$/deploy/demo.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53544974" vertical-offset="0" max-vertical-offset="945">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding />
         </state>
       </provider>
